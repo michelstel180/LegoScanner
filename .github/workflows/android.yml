@@ -19,7 +19,7 @@ jobs:
         distribution: 'temurin'
 
     - name: Generate Gradle Wrapper
-      run: gradle wrapper
+      run: gradle wrapper --gradle-version 8.6
 
     - name: Make gradlew executable
       run: chmod +x gradlew
